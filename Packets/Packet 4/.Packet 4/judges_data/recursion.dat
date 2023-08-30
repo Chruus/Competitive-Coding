@@ -1,0 +1,12 @@
+5 6
+A(x) {if(x<100) return 1; else return D(x-1)}
+B(x) {if(x=16) return 2; else return C(x+2)}
+C(x) {if(x=16) return 2; else return B(x+2)}
+D(x) {if(x<150) return 149; else return E(x-0)}
+E(x) {if(x<150) return 148; else return A(x-0)}
+A(50)
+A(102)
+B(2)
+C(4)
+D(150)
+D(165)

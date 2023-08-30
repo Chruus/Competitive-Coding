@@ -1,0 +1,85 @@
+4
+4 3
+A B C D
+A-B
+C-A
+D-B
+9 10
+Xavier Louis George Brittney Doug Jason Sushmitha Petra Yinfei
+Xavier-Louis
+Louis-George
+George-Xavier
+Petra-Sushmitha
+Brittney-Doug
+Brittney-Xavier
+Xavier-Petra
+Jason-Yinfei
+Jason-Louis
+Xavier-Sushmitha
+7 8
+A B C D E F G
+A-C
+B-F
+G-F
+D-C
+B-A
+E-F
+F-A
+B-C
+25 40
+Acacia AlphaEpsilonPhi AlphaTauOmega BetaThetaPi ChiPhi DeltaChi DeltaSigmaPhi DeltaTauDelta KappaAlphaOrder KappaSigma LambdaChiAlpha PhiDeltaTheta PhiGammaDelta PhiKappaPsi PiKappaAlpha PiKappaPhi SigmaAlphaEpsilon SigmaAlphaMu SigmaChi SigmaPhiEpsilon SigmaPi TauKappaEpsilon ThetaChi ZetaBetaTau ZetaPsi
+DeltaSigmaPhi-DeltaSigmaPhi
+Acacia-LambdaChiAlpha
+SigmaAlphaEpsilon-AlphaTauOmega
+Acacia-ChiPhi
+PiKappaAlpha-SigmaAlphaMu
+SigmaChi-Acacia
+PiKappaPhi-TauKappaEpsilon
+Acacia-DeltaChi
+Acacia-SigmaPhiEpsilon
+ZetaPsi-DeltaChi
+Acacia-TauKappaEpsilon
+AlphaEpsilonPhi-ChiPhi
+SigmaAlphaMu-SigmaAlphaEpsilon
+BetaThetaPi-PiKappaPhi
+PhiGammaDelta-Acacia
+PhiDeltaTheta-KappaSigma
+TauKappaEpsilon-AlphaTauOmega
+DeltaTauDelta-ThetaChi
+SigmaAlphaMu-SigmaPhiEpsilon
+PiKappaAlpha-AlphaEpsilonPhi
+ThetaChi-KappaAlphaOrder
+ChiPhi-BetaThetaPi
+ChiPhi-PiKappaPhi
+ChiPhi-ThetaChi
+DeltaSigmaPhi-LambdaChiAlpha
+KappaSigma-SigmaPi
+PhiDeltaTheta-DeltaSigmaPhi
+KappaSigma-BetaThetaPi
+SigmaPhiEpsilon-SigmaChi
+SigmaAlphaEpsilon-DeltaTauDelta
+AlphaEpsilonPhi-SigmaChi
+ZetaBetaTau-ZetaBetaTau
+SigmaAlphaMu-ChiPhi
+SigmaPhiEpsilon-ZetaPsi
+PiKappaPhi-ZetaBetaTau
+PiKappaPhi-PhiGammaDelta
+SigmaPi-ThetaChi
+AlphaEpsilonPhi-SigmaPhiEpsilon
+DeltaTauDelta-KappaSigma
+SigmaAlphaMu-LambdaChiAlpha
+PhiGammaDelta-ThetaChi
+KappaSigma-ChiPhi
+ZetaPsi-SigmaAlphaMu
+TauKappaEpsilon-ZetaPsi
+SigmaPhiEpsilon-DeltaSigmaPhi
+SigmaPi-DeltaSigmaPhi
+SigmaPhiEpsilon-BetaThetaPi
+BetaThetaPi-ZetaPsi
+ZetaBetaTau-SigmaAlphaEpsilon
+TauKappaEpsilon-PhiGammaDelta
+SigmaChi-LambdaChiAlpha
+SigmaAlphaMu-AlphaTauOmega
+PhiKappaPsi-ThetaChi
+PhiGammaDelta-ChiPhi
+PhiKappaPsi-DeltaTauDelta

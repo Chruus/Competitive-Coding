@@ -1,0 +1,10 @@
+6 3
+a(x) {if(x=3) return 3; else return a(x+1)}
+b(x) {if(x<5) return 1; else return c(x-2)}
+c(x) {if(x>7) return -2; else return d(x-3)}
+d(x) {if(x=0) return 3; else return d(x-2)}
+alpha(x) {if(x<0) return 0; else return beta(x-15)}
+beta(x) {if(x<10) return 5; else return alpha(x-5)}
+a(0)
+b(7)
+beta(70)
