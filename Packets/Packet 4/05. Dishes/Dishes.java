@@ -9,6 +9,8 @@ public class Dishes {
         int ll = input.nextInt();
         input.nextLine();
 
+        // Parses the data from the file and turns it into usable numbers/names
+        // Uses classes to more easily sort dishes
         for (int i = 0; i < ll; i++) {
             String[] data = input.nextLine().split(" ");
             int numOfDishes = Integer.parseInt(data[0]);
@@ -29,6 +31,7 @@ public class Dishes {
     }
 }
 
+// This class more easily organizes the creating/sorting of data
 class Table {
     char[] order;
     ArrayList<Dish> dishes;
@@ -48,6 +51,7 @@ class Table {
         }
     }
 
+    // Finds every possible combo of bussers, then returns the fastest combo
     void calculateBussers() {
         double bestTime = Integer.MAX_VALUE;
         int bestCombo = -1;
@@ -77,6 +81,7 @@ class Table {
 
 }
 
+// Each individual piece of data (type of dish)
 class Dish {
     int clear, clean;
     char name;

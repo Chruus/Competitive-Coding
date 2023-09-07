@@ -11,6 +11,8 @@ public class Expletives {
 
         String[] expletives = input.nextLine().split(" ");
 
+        // For each word: compare the word with each expletive to see if it could be one
+        // If it could, increases possibleExpletives (the output)
         for (int i = 0; i < numOfWords; i++) {
             String word = input.nextLine();
             int possibleExpletives = 0;
@@ -28,6 +30,8 @@ public class Expletives {
 
     }
 
+    // Compares each letter of the words, returns continues if the letters are the
+    // same or the letter is a symbol
     public static boolean isPossibleExpletive(String word, String expletive) {
         for (int j = 0; j < word.length(); j++) {
             if (word.charAt(j) == expletive.charAt(j) || isSymbol(word.charAt(j)))
@@ -38,6 +42,7 @@ public class Expletives {
         return true;
     }
 
+    // Goes through the possible expletive characters and compares the input to them
     public static boolean isSymbol(char c) {
         final char[] symbols = "!@#$%^&*()?".toCharArray();
         for (char symbol : symbols) {

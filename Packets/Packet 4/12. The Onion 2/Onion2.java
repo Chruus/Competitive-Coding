@@ -1,5 +1,6 @@
 public class Onion2 {
     public static void main(String[] args) {
+        // "ctrl + c" then "ctrl + v"
         System.out.println(".....................N...\n" +
                 ".....................N.N.\n" +
                 ".....................NN..\n" +

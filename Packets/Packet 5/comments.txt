@@ -1,0 +1,10 @@
+// Comments in Code: 
+// 1. - Ctrl + C then Ctrl + V
+// 2. - Use methods to check each condition
+// 3. - Standard flood fill. Make the place you check variable to account for 'J'
+// 4. - Use Strings to create number, modify standard decimal to binary methods
+// 5. - Take A, B, and C from string, then plug into quadratic formula. The rest is pretty ez.
+// 7. - Flood fill, but with 3d array. Make sure to parse paths & clone array
+// 8. - Harder than it looks. I used nested for loops, but it's kinda hard to describe. GL.
+// 10. - 2nd easiest here, I believe in you.
+// 11. - I created a comparable Team class to easily sort the data.
