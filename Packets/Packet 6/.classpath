@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="01. Bitwise"/>
+	<classpathentry kind="src" path="02. Chess"/>
+	<classpathentry kind="src" path="03. Communication"/>
+	<classpathentry kind="src" path="06. ~Fun With Polygons"/>
+	<classpathentry kind="src" path="08. ~Highly Composite"/>
+	<classpathentry kind="src" path="14. ~Pumba"/>
+	<classpathentry kind="src" path="15. Puya&apos;s Mom"/>
+	<classpathentry kind="src" path="17. The Spawn of Enarc"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
