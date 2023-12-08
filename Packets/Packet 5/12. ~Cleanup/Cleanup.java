@@ -1,9 +1,12 @@
 //Christopher Petty
 
+//Takes 2hrs to get full 
+
 import java.io.*;
 import java.util.*;
 
 public class Cleanup {
+	
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(new File("test.txt"));
 		while (input.hasNextLine()) {
@@ -12,9 +15,9 @@ public class Cleanup {
 			while (!dozer.isFinished()) {
 				if (dozer.isAtCapacity())
 					time += dozer.deposit();
-				time += dozer.pickUp();
 				if (dozer.canMove() && !dozer.isFinished())
 					time += dozer.move();
+				time += dozer.pickUp();
 			}
 			time += dozer.deposit() / 2;
 			System.out.println(time);
@@ -41,7 +44,7 @@ class Bulldozer {
 	}
 
 	public boolean canMove() {
-		if (!isFinished() && path[index + 1] != 0)
+		if (!isFinished() && path[index] != 0)
 			return false;
 		return true;
 	}
@@ -67,14 +70,16 @@ class Bulldozer {
 	}
 
 	public int pickUp() {
-		if (path[index + 1] > capacity - weightHeld) {
-			path[index + 1] -= capacity - weightHeld;
+		if (path[index] > capacity - weightHeld) {
+			path[index] -= capacity - weightHeld;
 			weightHeld = capacity;
 		} else {
-			weightHeld += path[index + 1];
-			path[index + 1] = 0;
+			weightHeld += path[index];
+			path[index] = 0;
 		}
-		return 2;
+		if (isAtCapacity() || (isFinished() && capacity > 0))
+			return 2;
+		return 0;
 	}
 
 	public int deposit() {
